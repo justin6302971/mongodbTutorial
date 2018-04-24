@@ -8,10 +8,6 @@
 * ``mongo -u alice -p secret  --eval "db=db.getSisterDB('admin');db.runCommand({getParameter: 1, authenticationMechanisms: 1})" --authenticationDatabase admin``
 
 
-
-
-
-
 ## create a user with all privilege
 
 ``db.createUser({user:'alice',pwd:'secret',roles:['root']})``
