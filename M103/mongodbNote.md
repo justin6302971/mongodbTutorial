@@ -10,4 +10,4 @@
 
   * sample config file
 
-  [sample mongod config file](../../mongod.conf)
+  [sample mongod config file](./mongod.conf)
